@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Braden-Build-a-Website</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -10,10 +10,10 @@
 			<h1>INTERIOR DESIGN</h1>
 				<nav>
 					<ul>
-						<li><a href="#">ABOUT</a></li>
-						<li><a href="#">PORTFOLIO</a></li>
-						<li><a href="#">TESTIMONIALS</a></li>
-						<li><a href="#">BLOG</a></li>
+						<li class="nav"><a href="#">ABOUT</a></li>
+						<li class="nav"><a href="#">PORTFOLIO</a></li>
+						<li class="nav"><a href="#">TESTIMONIALS</a></li>
+						<li class="nav"><a href="#">BLOG</a></li>
 						<li id="contact"><a href="#">CONTACT</a></li>
 					</ul>
 				</nav>
@@ -21,27 +21,27 @@
 			</header>
 		<img class="cover" src="img/cover photo.jpeg">
 	<main>
-		<section>
+		<section class="mains">
 			<h2>Title 1</h2>
-			<img src="img/t1.png">
+			<img class="mainp" src="img/t1.png">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto recusandae adipisci distinctio id.</p>
-			<a href="">More Info</a>
+			<a class="link" href="#">MORE INFO</a>
 		</section>
-		<section class="s2">
+		<section class="s2 mains">
 			<h2>Title 2</h2>
-			<img src="img/t2.png">
+			<img class="mainp" src="img/t2.png">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto recusandae adipisci distinctio id.</p>
-			<a href="">More Info</a>
+			<a class="link" href="#">MORE INFO</a>
 		</section>
-		<section>
+		<section class="mains">
 			<h2>Title 3</h2>
-			<img src="img/t3.png">
+			<img class="mainp" src="img/t3.png">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto recusandae adipisci distinctio id.</p>
-			<a href="">More Info</a>
+			<a class="link" href="#">MORE INFO</a>
 	</section>
 </main>
-	<section class="insta">
-		<h1>Instagram</h1>
+	<section class="body2">
+		<h1 class="insta">Instagram</h1>
 		<div class="grid">
 			<img class="g1" src="img/g1@2x.png">
 			<img class="g2" src="img/g2@2x.png">
@@ -50,11 +50,17 @@
 			<img class="g5" src="img/t1.png">
 		</div>
 	</section> 
-		<footer>
-			<a href="">facebook</a>
-			<a href="">twitter</a>
-			<a href="">insta</a>
-			<a href="">email</a>
-		</footer>
+	<footer>
+		<div>
+			<nav>
+				<ul>
+					<li id="fb"><a href="#"><img class="sm" src="img/facebook@2x.png"></a></li>
+					<li><a href="#"><img class="sm" src="img/twitter@2x.png"></a></li>
+					<li><a href="#"><img class="sm" src="img/insta@2x.png"></a></li>
+					<li><a href="#"><img class="sm" src="img/email@2x.png"></a></li>
+				</ul>
+			</nav>
+		</div>
+	</footer>
 </body>
 </html>
